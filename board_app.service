@@ -1,0 +1,15 @@
+[Unit]
+Description=board_AutoStart
+After=graphical.target
+Wants=graphical.target
+
+[Service]
+User=pi
+Group=pi
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/pi/.Xauthority"
+ExecStartPre=/usr/bin/printenv
+ExecStart=/home/pi/Documents/monitor/board.sh
+
+[Install]
+WantedBy=graphical.target

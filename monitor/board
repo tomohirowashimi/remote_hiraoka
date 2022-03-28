@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=board
+Comment=board
+Exec=/home/pi/Documents/monitor/board.sh
+Icon=/home/pi/Documents/monitor/board.ico
+
+Terminal=False

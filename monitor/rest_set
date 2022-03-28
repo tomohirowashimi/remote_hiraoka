@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=rest_set
+Comment=rest_set
+Exec=/home/pi/Documents/monitor/rest_set.sh
+Icon=/home/pi/Documents/monitor/rest_set.ico
+
+Terminal=False

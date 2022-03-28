@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=curate
+Comment=curate
+Exec=/home/pi/Documents/monitor/curate.sh
+Icon=/home/pi/Documents/monitor/curate.ico
+
+Terminal=False
